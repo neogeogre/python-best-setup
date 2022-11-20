@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-best-setup"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "python_best_setup"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.15"
+
+[tool.poetry.dev-dependencies]
+pytest = "~6"
+pytest-cov = "^2.12"
+pytest-mock = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

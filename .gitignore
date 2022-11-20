@@ -1,0 +1,11 @@
+.idea
+*.iml
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+reports/
+.coverage
+coverage.xml
+.env
+.vscode
