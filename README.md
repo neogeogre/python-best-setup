@@ -18,7 +18,19 @@ then setup python version like the one in the `.python-version` file.
 
 ```shell
 pyenv install 3.9.15
-pyenv local 3.9.15
+pyenv global 3.9.15
+```
+
+check that the installed version is correct with:
+
+```shell
+pyenv versions
+```
+
+and:
+
+```shell
+python -V
 ```
 
 ### poetry
@@ -30,6 +42,13 @@ up to now you have to execute commands in the project folder like:
 ```shell
 cd ~/python-best-setup
 ```
+
+then do:
+
+```shell
+pyenv local 3.9.15
+```
+
 
 then do:
 
