@@ -25,6 +25,12 @@ pyenv local 3.9.15
 
 install poetry: https://github.com/python-poetry/poetry#installation
 
+up to now you have to execute commands in the project folder like:
+
+```shell
+cd ~/python-best-setup
+```
+
 then do:
 
 ```shell
