@@ -1,5 +1,6 @@
 ## python-best-setup
 
+This setup is the best and lightest one to ensure a consistent robustness of a python project in terms of python version and libraries versions. With this you can also easily switch between python versions among several projects without the risk to have side effect or clashes. Also this will keep the python of your OS untouched reduccing the risk of damaging your OS.
 
 ### pyenv
 
